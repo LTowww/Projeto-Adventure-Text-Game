@@ -1,5 +1,5 @@
 # ⚔️ A Grande Aventura
-Um jogo de aventura baseado em texto desenvolvido em **Portugol** e **Python**, onde o jogador precisa explorar florestas, cavernas, enfrentar criaturas e tomar decisões que mudam o rumo da jornada.
+Um jogo de aventura baseado em texto desenvolvido em **Portugol**, **Python** e **C**, onde o jogador precisa explorar florestas, cavernas, enfrentar criaturas e tomar decisões que mudam o rumo da jornada.
 
 ## 📖 Sobre o jogo
 Em **A Grande Aventura**, você acorda em um lugar desconhecido e precisa escolher seus caminhos para sobreviver.
@@ -38,6 +38,12 @@ Cada escolha altera o rumo da história.
 - Biblioteca padrão `random`
 - Biblioteca padrão `os`
 
+### C
+- GCC (compilador)
+- Biblioteca padrão `stdio.h`
+- Biblioteca padrão `stdlib.h`
+- Biblioteca padrão `time.h`
+
 ---
 
 ## ▶️ Como executar
@@ -63,8 +69,26 @@ Cada escolha altera o rumo da história.
    python main.py
    ```
 
----
+### Versão C
+1. Certifique-se de ter o GCC instalado
+   ```bash
+   gcc --version
+   ```
+2. Clone o repositório
+   ```bash
+   git clone https://github.com/seu-usuario/a-grande-aventura.git
+   cd a-grande-aventura/c
+   ```
+3. Compile o jogo
+   ```bash
+   gcc -o jogo jogo.c
+   ```
+4. Execute o jogo
+   ```bash
+   ./jogo.exe
+   ```
 
+---
 
 ## 📌 Futuras Atualizações
 Algumas ideias planejadas para o futuro:
